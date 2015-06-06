@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
  
 
-<title>Navbar</title>
+<title>Navigation Bar</title>
 </head>
 <body>
 

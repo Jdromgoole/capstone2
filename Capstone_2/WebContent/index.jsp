@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <meta charset="UTF-8">
-<title>Trebles and Clefs</title>
+<title>Trebles & Clefs</title>
 </head>
 <body>
 <div class="container">
