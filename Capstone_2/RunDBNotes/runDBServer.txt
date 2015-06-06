@@ -1,0 +1,5 @@
+1) Open Terminal
+2) Type "cd ACC_DBs" into Terminal
+3) Type "ls" to see if your in the right dbs folder
+4) Type "startNetworkServer" in the terminal
+
