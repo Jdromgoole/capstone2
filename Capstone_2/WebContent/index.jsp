@@ -15,7 +15,7 @@
   
   
   <p>
-    <h1>Trebles and Clefs</h1> 
+    <h1>Trebles & Clefs</h1> 
     
     
     <h3>Your <i>premier</i> online musician database!</h3>
