@@ -1,3 +1,6 @@
+<%@ taglib prefix="c" 
+           uri="http://java.sun.com/jsp/jstl/core" %>  
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +14,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -23,30 +26,26 @@
      
       <!-- Link "Brand" with index.jsp -->
      
-      <a class="navbar-brand" href="index.jsp">Brand</a>
+      <a class="navbar-brand" href="index.jsp">T&C</a>
     </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+      
+
+        
         <li><a href="Login.jsp">Login</a></li>
         
-       <li class="dropdown"> 
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-           <ul class="dropdown-menu" role="menu">
-         
-             <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul> 
-          
-          
-          
+        <li>
+        <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="What're you looking for?">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
         </li>
+        
+    
       </ul>
       </div>
       </div> 
