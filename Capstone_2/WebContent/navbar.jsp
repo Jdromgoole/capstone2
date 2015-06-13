@@ -14,8 +14,8 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container">
+<nav class="navbar navbar-inverse cols=40>
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -26,8 +26,8 @@
      
       <!-- Link "Brand" with index.jsp -->
      
-      <a class="navbar-brand" href="index.jsp">T&C</a>
-    </div>
+      <a class="navbar-brand" href="index.jsp">TMP</a>
+    </div> 
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -35,6 +35,8 @@
 
         
         <li><a href="Login.jsp">Login</a></li>
+        <li><a href="About.jsp">About Us</a></li>
+        <li><a href="Board.jsp">Message Board</a></li>
         
         <li>
         <form class="navbar-form navbar-right" role="search">
@@ -48,7 +50,7 @@
     
       </ul>
       </div>
-      </div> 
+      
 </nav>
 </body>
 </html>

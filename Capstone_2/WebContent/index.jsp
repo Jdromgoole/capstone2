@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" 
            uri="http://java.sun.com/jsp/jstl/core" %>  
 
-<%@ include file="navbar.jsp" %>
+
 
 <!DOCTYPE html>
 <html>
@@ -26,6 +26,7 @@ p.double {border-style: double;}
 </head>
 <body>
 
+<%@ include file="navbar.jsp" %>
 
   <div class="jumbotron-fluid">
  
