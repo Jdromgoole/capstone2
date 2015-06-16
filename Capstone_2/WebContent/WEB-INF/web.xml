@@ -20,4 +20,24 @@
     <url-pattern>/HomeServlet</url-pattern>
     <url-pattern>/home</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Servlet_1</display-name>
+    <servlet-name>Servlet_1</servlet-name>
+    <servlet-class>capServlets.com.Servlet_1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet_1</servlet-name>
+    <url-pattern>/Servlet_1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginManager</display-name>
+    <servlet-name>LoginManager</servlet-name>
+    <servlet-class>capServlets.com.LoginManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginManager</servlet-name>
+    <url-pattern>/LoginManager</url-pattern>
+  </servlet-mapping>
 </web-app>

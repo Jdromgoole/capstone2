@@ -18,3 +18,16 @@ update MUSICIANS set theYear = 2009, color = 'Green' where id = 2;
 select * from musicians;
 
 select * from musicians where instrument = 'guitar';
+
+
+CREATE TABLE app.loginUser
+	(id INT ,
+	userName VARCHAR(40) NOT NULL,
+	email VARCHAR(40) NOT NULL,
+	password VARCHAR(40) NOT NULL
+	);
+
+INSERT INTO LOGINUSER (userName, email, password) values ('Joe Blow', 'JoeBlow@yawoo.com', 'CatScratchFever');
+
+
+
