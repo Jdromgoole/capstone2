@@ -10,23 +10,21 @@
 </head>
 <body>
 
+	<!-- Communicates with the Servlet -->
 
-	<form action="login" method="post">
-		
-
-
-
-
+	<form action="/Capstone_2/login" method="post">
 
 
 		<div class="form-group">
 
-			<label for="email">Email address:</label> <input type="email"
+			<label for="email">Email address:</label> 
+			<input  name="emailAddress"  type="emailAddress"
 				class="form-control" id="email">
 		</div>
 		<div class="form-group">
-			<label for="pwd">Password:</label> <input type="password"
-				class="form-control" id="pwd">
+			<label for="password">Password:</label> 
+			<input name="password" type="password"
+				class="form-control" id="password">
 		</div>
 		<button type="submit" value="Login" class="btn btn-default">Submit</button>
 	</form>

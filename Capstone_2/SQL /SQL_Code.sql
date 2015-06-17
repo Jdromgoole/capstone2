@@ -28,6 +28,7 @@ CREATE TABLE app.loginUser
 	);
 
 INSERT INTO LOGINUSER (userName, email, password) values ('Joe Blow', 'JoeBlow@yawoo.com', 'CatScratchFever');
+INSERT INTO LOGINUSER (userName, email, password) values ('Jake Dromgoole', 'jakeDromgoole@123.com', 'abc');
 
 
 
