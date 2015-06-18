@@ -1,0 +1,2 @@
+1. Route the login page to go to the Main.jsp instead of the index. Be sure to have some indicator of whether or not the user is logged in.
+2.Make "Home!" a link back to the index page (in the LoggedOut.jsp file).

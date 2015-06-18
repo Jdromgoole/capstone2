@@ -44,6 +44,7 @@
 
 
 				<li><a href="Login.jsp">Login</a></li>
+				<li><a href="LogOut.jsp">Logout</a></li>
 				<li><a href="Contact.jsp">Contact</a></li>
 				<li><a href="Board.jsp">Message Board</a></li>
 
