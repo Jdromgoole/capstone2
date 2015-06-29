@@ -37,10 +37,10 @@ public class LoginServlet extends HttpServlet {
 			HttpSession theSession = request.getSession();
 			theSession.setAttribute("isLoggedIn", true);
 			request.setAttribute("name", name);
-			response.sendRedirect("/Capstone_2/index.jsp");
+			response.sendRedirect("/Capstone_2/youAreLoggedOn.jsp");
 		} else {
 
-			getServletContext().getRequestDispatcher("/Login.jsp")
+			getServletContext().getRequestDispatcher("/youAreLoggedOn.jsp")
 					.forward(request, response);
 		}
 	}

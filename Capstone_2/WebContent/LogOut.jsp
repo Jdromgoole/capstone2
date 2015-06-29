@@ -10,13 +10,18 @@
 <title>Logout</title>
 </head>
 <body>
+
+<form action="/Capstone_2/Logout" method="post">
+
+
 Are you sure you want to logout?
 
 
-<form>
-<button type="submit" value="logout" class="btn btn-default">Submit</button>
-</form>
 
+<button type="submit" value="logout" class="btn btn-default">Submit</button>
+
+
+</form>
 
 </body>
 </html>

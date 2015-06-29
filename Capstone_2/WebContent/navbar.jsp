@@ -21,6 +21,17 @@
 </head>
 <body>
 
+<c:if test="${ (isLoggedIn == false) or (empty isLoggedIn)  }">
+           		<li><a href="/Capstone_2/login">Login</a></li>
+           		
+           		
+			 
+           </c:if>
+           
+           <c:if test="${isLoggedIn == true }">
+           
+           		</c:if>
+           
 	<nav
 		class="navbar navbar-inverse cols=40>
   <div class="container-fluid">

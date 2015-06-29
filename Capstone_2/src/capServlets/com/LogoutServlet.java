@@ -27,7 +27,7 @@ public class LogoutServlet extends HttpServlet {
 
 		getServletContext().getRequestDispatcher("/LogOut.jsp").forward(
 				request, response);
-		
+
 		HttpSession session = request.getSession();
 		session.setAttribute("isLoggedIn", false);
 
@@ -35,7 +35,4 @@ public class LogoutServlet extends HttpServlet {
 
 	}
 
-	// protected void doPost(HttpServletRequest request,
-	// HttpServletResponse response) throws ServletException, IOException {
-	// // TODO Auto-generated method stub
 }
