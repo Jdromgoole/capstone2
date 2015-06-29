@@ -7,6 +7,9 @@
 <title>You Are Logged Out</title>
 </head>
 <body>
+<p>
+You Are Logged Out!
+</p>
 <!-- Make "Home!" a link back to the index page -->
 Take me Home!
 </body>

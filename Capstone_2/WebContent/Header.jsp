@@ -26,7 +26,7 @@
 
 		<div id="slider">
 
-			<img src="Images/guitar.jpg" style="width: 1420px; height: 500px;">
+			<img src="Images/Wanna Jam.jpg" style="width: 1420px; height: 500px;">
 
 		</div>
 	</div>
