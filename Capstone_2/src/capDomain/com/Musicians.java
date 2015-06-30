@@ -26,7 +26,7 @@ public class Musicians {
 	/**
 	 * @return the id
 	 */
-	public int getId() {
+	public int getAge() {
 		return age;
 	}
 
@@ -34,23 +34,15 @@ public class Musicians {
 	 * @param id
 	 *            the id to set
 	 */
-	public void setId(int id) {
+	public void setAge(int id) {
 		this.age = id;
 	}
 
 	/**
-	 * @return the mileage
+	 * @return experience
 	 */
 	public int getExperience() {
 		return experience;
-	}
-
-	/**
-	 * @param mileage
-	 *            the mileage to set
-	 */
-	public void setMileage(int mileage) {
-		this.mileage = mileage;
 	}
 
 	/**
@@ -68,26 +60,13 @@ public class Musicians {
 		this.name = make;
 	}
 
-	/**
-	 * @return the model
-	 */
-	public String getModel() {
-		return model;
-	}
-
-	/**
-	 * @param model
-	 *            the model to set
-	 */
-	public void setModel(String model) {
-		this.model = model;
-	}
+	
 
 	/**
 	 * @return the year
 	 */
 	public int getYear() {
-		return year;
+		return experience;
 	}
 
 	/**
@@ -95,22 +74,7 @@ public class Musicians {
 	 *            the year to set
 	 */
 	public void setYear(int year) {
-		this.year = year;
-	}
-
-	/**
-	 * @return the color
-	 */
-	public String getColor() {
-		return color;
-	}
-
-	/**
-	 * @param color
-	 *            the color to set
-	 */
-	public void setColor(String color) {
-		this.color = color;
+		this.experience = year;
 	}
 
 	/*
@@ -121,11 +85,16 @@ public class Musicians {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Musicians [id=").append(age).append(", mileage=")
-				.append(mileage).append(", make=").append(name)
-				.append(", model=").append(model).append(", year=")
-				.append(year).append(", color=").append(color).append("]");
+		builder.append("Musicians [id=").append(age).append(", name=")
+				.append(name).append(", make=").append(name).append(", model=")
+				.append(", year=").append(experience)
+				.append(", color=").append("]");
 		return builder.toString();
+	}
+
+	public String getInstrument() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

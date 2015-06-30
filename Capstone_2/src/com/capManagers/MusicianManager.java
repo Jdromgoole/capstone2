@@ -127,10 +127,8 @@ public class MusicianManager {
 			PreparedStatement ps = connection.prepareStatement(theSqlQueryString);
 			ps.setString(1, v.getName());
 			ps.setString(2, v.getInstrument());
-			ps.setInt(3, v.getYear());
-			ps.setInt(4, v.getMileage());
-			ps.setString(5, v.getColor());
-			ps.setInt(6, v.getId());
+			ps.setInt(3, v.getExperience());
+			ps.setInt(4, v.getAge());
 			
 			int theUpdatedCount = ps.executeUpdate();
 			if (theUpdatedCount >= 1) {
