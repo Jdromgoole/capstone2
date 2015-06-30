@@ -22,7 +22,7 @@
 <body>
 
 <c:if test="${ (isLoggedIn == false) or (empty isLoggedIn)  }">
-           		<li><a href="/Capstone_2/login">Login</a></li>
+           		
            		
            		
 			 

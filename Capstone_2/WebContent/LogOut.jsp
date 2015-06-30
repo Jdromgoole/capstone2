@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<form action="/Capstone_2/Logout" method="post">
+<form action="/Capstone_2/logout" method="post">
 
 
 Are you sure you want to logout?

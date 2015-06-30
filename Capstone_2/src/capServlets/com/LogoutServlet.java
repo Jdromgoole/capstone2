@@ -12,24 +12,21 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class LogoutServlet
  */
-@WebServlet("/logout")
+@WebServlet("/Capstone_2/logout")
 public class LogoutServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	public LogoutServlet() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
-	protected void doGet(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+	protected void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
+	
 
-		getServletContext().getRequestDispatcher("/LogOut.jsp").forward(
-				request, response);
+		getServletContext().getRequestDispatcher("/LogOut.jsp").forward(request, response);
 
-		HttpSession session = request.getSession();
-		session.setAttribute("isLoggedIn", false);
+		HttpSession session = request.getSession();session.setAttribute("isLoggedIn", false);
 
 		response.sendRedirect("index.jsp");
 
