@@ -1,4 +1,4 @@
-package capServlets.com;
+package com.capServlets;
 
 import java.io.IOException;
 

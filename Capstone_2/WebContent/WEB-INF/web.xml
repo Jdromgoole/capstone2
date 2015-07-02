@@ -9,55 +9,8 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>HomeServlet</display-name>
-    <servlet-name>HomeServlet</servlet-name>
-    <servlet-class>com.capstone.HomeServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HomeServlet</servlet-name>
-    <url-pattern>/HomeServlet</url-pattern>
-    <url-pattern>/home</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>Servlet_1</display-name>
-    <servlet-name>Servlet_1</servlet-name>
-    <servlet-class>capServlets.com.Servlet_1</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Servlet_1</servlet-name>
-    <url-pattern>/Servlet_1</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>LoginManager</display-name>
-    <servlet-name>LoginManager</servlet-name>
-    <servlet-class>capServlets.com.LoginManager</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LoginManager</servlet-name>
-    <url-pattern>/LoginManager</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>LogoutServlet</display-name>
-    <servlet-name>LogoutServlet</servlet-name>
-    <servlet-class>capServlets.com.LogoutServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LogoutServlet</servlet-name>
-    <url-pattern>/LogoutServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ShowMusicianServlet</display-name>
-    <servlet-name>ShowMusicianServlet</servlet-name>
-    <servlet-class>capServlets.com.ShowMusicianServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ShowMusicianServlet</servlet-name>
-    <url-pattern>/ShowMusicianServlet</url-pattern>
-  </servlet-mapping>
+
+  
+    
+  
 </web-app>

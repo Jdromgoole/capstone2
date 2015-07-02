@@ -1,4 +1,4 @@
-package capServlets.com;
+package com.capServlets;
 
 import java.io.IOException;
 import java.sql.PreparedStatement;
@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.sql.DataSource;
 
+import com.capDomain.Musicians;
 import com.capManagers.MusicianManager;
 
-import capDomain.com.Musicians;
 import exceptions.com.DBErrorException;
 
 /**

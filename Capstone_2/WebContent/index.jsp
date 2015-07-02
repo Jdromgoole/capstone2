@@ -10,6 +10,14 @@
 p.double {
 	border-style: double;
 }
+
+<!-- Insert cream background color -->
+
+p.body {
+
+background-color: ;
+
+}
 </style>
 
 

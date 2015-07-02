@@ -11,12 +11,18 @@
 </head>
 <body>
 
-<form action="/Capstone_2/logout" method="post">
+<form action="/Capstone_2/LogoutServlet" method="post">
 
 
 Are you sure you want to logout?
 
+<!-- post -logout.
+need logout servlet
+needs a doPost (request, response)
+req.getSession.invalidate
 
+*after a successful post, redirect not forward (loggedOut.jsp) 
+-->
 
 <button type="submit" value="logout" class="btn btn-default">Submit</button>
 

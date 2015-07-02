@@ -1,4 +1,4 @@
-package capDomain.com;
+package com.capDomain;
 
 public class Musicians {
 

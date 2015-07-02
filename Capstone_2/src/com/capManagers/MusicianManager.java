@@ -12,8 +12,9 @@ import java.util.ArrayList;
 
 import javax.sql.DataSource;
 
-import capDomain.com.Users;
-import capDomain.com.Musicians;
+import com.capDomain.Musicians;
+import com.capDomain.Users;
+
 import exceptions.com.DBErrorException;
 
 /**
