@@ -8,13 +8,13 @@ public class Musicians {
 	String instrument;
 	int experience;
 
-	public Musicians(String name, int age, String location, String instrument,
+	public Musicians(String i, int string, String location, String j,
 			int experience) {
 		super();
-		this.name = name;
-		this.age = age;
+		this.name = i;
+		this.age = string;
 		this.location = location;
-		this.instrument = instrument;
+		this.instrument = j;
 		this.experience = experience;
 	}
 

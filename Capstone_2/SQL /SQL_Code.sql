@@ -20,9 +20,9 @@ INSERT INTO MUSICIANS (name, age, location, instrument, experience)  values ('Wi
 
 update MUSICIANS set theYear = 2009, color = 'Green' where id = 2;
 
-select * from musicians;
+SELECT * FROM musicians;
 
-select * from musicians where instrument = 'guitar';
+SELECT * FROM musicians where instrument = 'guitar';
 
 
 CREATE TABLE app.loginUser

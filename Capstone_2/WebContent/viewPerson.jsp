@@ -16,16 +16,22 @@
 </head>
 <body>
 
+<h1>
+View Musicians
+</h1>
 	
 	
-<h2>${capName } Detail Page</h2>
+<!--  <h2>${capName } Detail Page</h2>
 <hr/>
+
+-->
+
 	${user.ID } <br/>
 	${user.name } <br/>
 	${user.email } <br/>
 	<br/>
 	<a href="${pageContext.request.contextPath}/index.jsp">Home</a> <br/>
-	<a href="${pageContext.request.contextPath}/listpeople">People List</a>
+	
 
 
 </body>

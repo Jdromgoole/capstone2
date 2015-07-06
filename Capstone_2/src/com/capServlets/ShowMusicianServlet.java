@@ -25,35 +25,37 @@ import exceptions.com.DBErrorException;
 @WebServlet({ "/ShowMusicianServlet", "/showMusician" })
 public class ShowMusicianServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-	@Resource(name="jdbc/DB")
+
+	@Resource(name = "jdbc/DB")
 	DataSource ds;
-	
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ShowMusicianServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public ShowMusicianServlet() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
-		String url = "/index.jsp";
+
+		String url = "/Musicians.jsp";
 		ArrayList<Musicians> musicians = null;
-		
+
 		HttpSession session = request.getSession();
-		
+
 		Boolean loggedInBoolean = (Boolean) session.getAttribute("isLoggedIn");
-		if ( loggedInBoolean != null ) {
+		if (loggedInBoolean != null) {
 			boolean loggedIn = loggedInBoolean.booleanValue();
-			 
-			if ( loggedIn ) {
-				
+
+			if (loggedIn) {
+
 				musicians = new MusicianManager(ds).getMusician();
 
 				if (musicians != null) {
@@ -63,14 +65,17 @@ public class ShowMusicianServlet extends HttpServlet {
 				}
 			}
 		}
-		
-		getServletContext().getRequestDispatcher(url).forward(request, response);
+
+		getServletContext().getRequestDispatcher(url)
+				.forward(request, response);
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 	}
 
