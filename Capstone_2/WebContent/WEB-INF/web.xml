@@ -9,26 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>AnotherServlet</display-name>
-    <servlet-name>AnotherServlet</servlet-name>
-    <servlet-class>com.capServlets.AnotherServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description></description>
-    <display-name>ListMusicians</display-name>
-    <servlet-name>ListMusicians</servlet-name>
-    <servlet-class>com.capServlets.ListMusicians</servlet-class>
-  </servlet>
-  <servlet>
-    <description></description>
-    <display-name>AuthFilter</display-name>
-    <servlet-name>AuthFilter</servlet-name>
-    <servlet-class>filters.AuthFilter</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>AuthFilter</servlet-name>
-    <url-pattern>/AuthFilter</url-pattern>
-  </servlet-mapping>
+
+ 
+ 
 </web-app>

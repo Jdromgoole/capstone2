@@ -1,8 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<c:if test="${sqlStatement == null }">
-<c:set> var="sqlStatement" value="SELECT * FROM MUSICIANS</c:set>
-</c:if>
 
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -12,65 +9,70 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Search Results</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+
+
+
+<title>Select Category</title>
 
 </head>
 <body>
 
-<!--  <h1>SQL Gateway</h1>
-<p>Enter a SQL statement and click the Execute button</p>
-
-<p><b>SQL statement:</b></p>
-<form action="sqlGateway" method="post">
-<textarea name="sqlStatement" cols="60" rows="8">{$sqlStatement}</textarea>
-<input type="submit" value="Execute">
-</form>
-
-<p><b>SQL result</b></p>
-${sqlResult} -->
 
 
-	<c:import url="/navbar.jsp"></c:import>
+	<c:import url="/loggedNavbar.jsp"></c:import>
+	<%@ include file="Header.jsp"%>
 
-<!--  	<h4>Musicians</h4>
-	<table
-		class="table table-striped table-bordered table-hover table-condensed">
-		<!--  <thread><td>Name</td><td>Email</td>
-		</thread>	 -->
-
-		<!-- The table header row -->
-		<tr>
-			<th>Name</th>
-			<th>Age</th>
-			<th>Location</th>
-			<th>Instrument</th>
-			<th>Experience</th>
-
-			<!--  <th>Detail Link</th> -->
-		</tr>
-		<!-- Table data rows -->
-
-		<c:forEach items="${musicians }" var="musicians">
-			<tr>
-				<!-- Rest of tr tag data items -->
-				<td>${musician.name}</td>
-				<td>${musican.age}</td>
-				<td>${musician.location}</td>
-				<td>${musician.instrument}</td>
-				<td>${musician.experience}</td>
-				<td><a class="btn btn-default btn-xs"
-					href="editMusician?id=${musician.id }">Edit</a>
-					<form class="form-horizontal" action="deleteVehicle" method="post">
-						<input type="hidden" name="id" value="${musician.id }"> <input
-							class="btn btn-xs btn-danger" type="submit" value="Delete"
-							id="submit">
-					</form></td>
-			</tr>
-		</c:forEach>
-	</table> -->
-
-	<!--  <a class="btn btn-primary" href="/SmallSecureWebsite/addVehicle">Add Vehicle</a> -->
+	<br>
+	<br>
+	<br>
+	<center>
+		<h1>Pick a category</h1>
+	</center>
+	<br>
+	<br>
+	<br>
 
 
+
+
+	<div class="row">
+		<div class="col-xs-6 col-md-4">
+			<a href="instrumentGuitar.jsp" class="thumbnail"> <img
+				src="Images/GuitarTab.jpg" alt="guitar">
+			</a>
+		</div>
+
+	
+	
+	
+		<div class="col-xs-6 col-md-4">
+			<a href="instrumentBass.jsp" class="thumbnail"> <img
+				src="Images/Bass Guitar.jpg" alt="bass">
+			</a>
+		</div>
+
+	
+	
+	
+		<div class="col-xs-6 col-md-4">
+			<a href="instrumentDrums.jsp" class="thumbnail"> <img
+				src="Images/Drums.jpg" alt="drums">
+			</a>
+		</div>
+
+	
+	
+	
+		<div class="col-xs-6 col-md-4">
+			<a href="instrumentVocals.jsp" class="thumbnail"> <img
+				src="Images/MicroPhone.jpg" alt="vocals">
+			</a>
+		</div>
+
+	
+	</div>
 </body>
 </html>

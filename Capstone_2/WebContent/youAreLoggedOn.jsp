@@ -32,7 +32,7 @@ p.double {
 
 
 
-	<%@ include file="navbar.jsp"%>
+	<%@ include file="loggedNavbar.jsp"%>
 <center>
 <p>
 You Are Logged On! <u><a href="LogOut.jsp">Logout</a></u>?

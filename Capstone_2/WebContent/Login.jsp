@@ -12,7 +12,7 @@
 
 	<!-- Communicates with the Servlet -->
 
-	<form action="/Capstone_2/login" method="post">
+<form action="/Capstone_2/login" method="post">
 
 
 		<div class="form-group">
@@ -31,4 +31,5 @@
 
 
 </body>
+
 </html>
